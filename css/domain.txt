@@ -1,0 +1,15 @@
+
+https://www.exams.unipune.ac.in
+
+1.  http          :  protocol  [ set of rules ] -
+2.  s             :  ssl [ OSI ]
+3.  www           :  web platform [ os -> vlc :  www -> website]
+4.  exams         :  sub / child domain  [ unipune/exams : child folder ]
+5.  unipune       :  main domain  [ main folder]
+6.  exams.unipune :  S.L.D
+7.  ac            :  Univercity :  app/ website type/ cat : e-com, social, ent, edu, etc
+8.  in            :  country : India
+9:  ac.in         :  T.L.D
+10: https://www.exams.unipune.ac.in  : Domin / URL
+
+abc.facebook.com  ->   'facebook/abc' folder websit pages : index. file

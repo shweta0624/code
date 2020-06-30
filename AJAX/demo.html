@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("button").click(function () {
+          $.get("../database/server.html", function (data, status) {
+            alert("Data: " + data + "\nStatus: " + status);
+            document.write(data);
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <button>Send an HTTP GET request to a page and get the result back</button>
+  </body>
+</html>
+
+<!-- 
+
+    client:   get: data from URL [ show ],   post: data from body[ hide ]
+
+    server:   GET: fetch data,   POST: Send Data 
+
+    DB    :   GET(fetch data),   POST(Send Data)
+ -->

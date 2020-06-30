@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Name :</h1>
+    <h1>No :</h1>
+
+    <script>
+      var rno = 10;
+      var sname = "Ravi";
+
+      document.write("<br> student name is : " + sname + " having rno " + rno);
+
+      var rno1 = 11;
+      var sname1 = "Akash";
+
+      document.write(
+        "<br> student name is : " + sname1 + " having rno " + rno1
+      );
+
+      var rno2 = 12;
+      var sname2 = "Sarika";
+
+      document.write(
+        "<br> student name is : " + sname2 + " having rno " + rno2
+      );
+
+      //   Arrray
+
+      var snames = ["Ravi", "Akash", "Sarika"];
+      var rNos = [10, 11, 12];
+
+      console.log(snames);
+      console.table(snames);
+      document.write(
+        "<br> student name is : " + snames[0] + " having rno " + rNos[0]
+      );
+
+      //  Object
+
+      var sData = {
+        name: "Akash",
+        rno: 11,
+      };
+
+      console.table(sData);
+
+      document.write(
+        "<br> st name : " + sData.name + " having rno " + sData.rno
+      );
+
+      var sInfo = [
+        // Array of Objs
+        {
+          name: "Akash",
+          rno: 11,
+        },
+        {
+          name: "Ravi",
+          rno: 12,
+        },
+        {
+          name: "Sarika",
+          rno: 13,
+        },
+      ];
+
+      console.table(sInfo);
+
+      document.write("<br> sName [{},{},{}] : " + sInfo[2].name);
+    </script>
+  </body>
+</html>
+<!-- 
+
+    window={
+        document :{
+                 write:{code}
+        }
+
+        alert:{
+            
+        }
+    }
+ -->
+
+<!-- 
+     Array of Objs    vs    JSON
+
+     pro. loops             { 
+                                []
+                                {
+                                    {
+                                        []
+                                    }
+                                }
+                             }
+                             json.method
+                            
+
+var sInfo = [
+       0-> {
+          name: "Akash",      // name: key -> Akash : value
+          rno: 11,
+        },
+        1->{
+          name: "Ravi",
+          rno: 12,
+        },
+        {
+          name: "Sarika",
+          rno: 13,
+        },
+      ];
+
+  -->

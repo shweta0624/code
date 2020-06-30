@@ -1,0 +1,45 @@
+* {
+  /* Default style entire page  */
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: "Chelsea Market", cursive;
+}
+
+/* p (html tag) : element selector  or type selector */
+
+/* p {
+        color: blue;
+      } */
+
+.classOne {
+  color: hotpink !important;
+}
+
+.classTwo {
+  color: green;
+}
+
+/* class selector ( . dot) */
+.abc {
+  text-decoration: underline;
+}
+
+/* id ( # hash ) */
+#idOne {
+  font-style: italic;
+}
+
+#idTwo {
+  font-size: 50px;
+}
+
+/* 
+      
+      element use for HTML
+
+      . class use for CSS
+
+      # Id use for JavaScript : uniqee
+      
+      
+      
+       */
