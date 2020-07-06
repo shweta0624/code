@@ -1,5 +1,6 @@
 <h1>{{ title }}</h1>
 
-<h2>{{ arr[0] }}</h2>
-
-<h1 *ngFor="let city of arr">{{ City }}</h1>
+<h2 *ngFor="let mobParts of mobParts">
+  <p>Id : {{ mobPart.id }}</p>
+  <p>Name : {{ mobPart.name }}</p>
+</h2>

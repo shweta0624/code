@@ -6,5 +6,19 @@ import { Component, NgModule } from '@angular/core';
 })
 export class AppComponent {
   title = 'Hello World...!';
-  arr = ['pune,mumbai,thane'];
+
+  mobParts = [
+    {
+      name: 'Mobile screen 1',
+      id: 1001,
+    },
+    {
+      name: 'Mobile screen 2',
+      id: 1002,
+    },
+    {
+      name: 'Mobile screen 3',
+      id: 1003,
+    },
+  ];
 }
